@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+.pnpm/
+.pnpm-store/
+
+# Build output
+dist/
+.nuxt/
+.out/
+build/
+
+# Logs
+logs/
+*.log
+
+# Local env + Firebase service keys
+.env
+.env.*.local
+serviceAccountKey.json
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.nitro/
+
+# Coverage and test output
+coverage/
+test-output/
+node_modules

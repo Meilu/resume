@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "esnext",               // JavaScript target version
+      "module": "esnext",               // Module system
+      "declaration": true,              // Generate .d.ts files
+      "declarationDir": "./dist",       // Output directory for .d.ts files
+      "outDir": "./dist",               // Output directory for compiled JS
+      "strict": true,                   // Enable strict type checking
+      "esModuleInterop": true,          // Allow imports for CommonJS modules
+      "moduleResolution": "node"        // Node-style module resolution
+    },
+    "exclude": ["node_modules", "dist"]
+  }

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                         // Good for Node.js 14+
+    "module": "CommonJS",                       // Required for Node.js
+    "rootDir": "./src",                         // Source folder
+    "outDir": "./dist",                         // Compiled output
+    "strict": true,                             // Enable all strict type checks
+    "esModuleInterop": true,                    // For `import * as fs` and default interop
+    "moduleResolution": "node",                 // Node-style resolution
+    "resolveJsonModule": true,                  // Allow importing JSON files
+    "typeRoots": ["./types", "./node_modules/@types"],  // For custom + default type defs
+    "types": ["node", "express"],               // Include necessary ambient types
+    "forceConsistentCasingInFileNames": true,   // Prevent OS-level case issues
+    "skipLibCheck": true,                        // Speed up compilation by skipping type checks on deps
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["../packages/shared/src/*"]
+    }
+  },
+  "include": ["src/**/*", "types/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
