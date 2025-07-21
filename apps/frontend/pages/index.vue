@@ -96,7 +96,9 @@
 
 <script lang="ts" setup>
 const { typewriter } = useMenuComposable();
-
+definePageMeta({
+  middleware: "authentication",
+});
 onMounted(() => {
   typewriter([`Via het menu hierboven kun je meer informatie vinden over mijn werkervaring en projecten.`]);
 });
