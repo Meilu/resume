@@ -6,7 +6,9 @@
           <v-img height="150" class="mt-5" src="/public/images/avatar_jurgen_vector2.png"></v-img>
           <v-card-text>
             <div class="font-weight-bold ms-1 mb-2">Tijdlijn</div>
-            <div>Op deze pagina vind je een kort overzicht van mijn werkervaring en projecten. Via het menu aan de linkerkant, vind je meer informatie.</div>
+            <div>Op deze pagina vind je een kort overzicht van mijn werkervaring en projecten. 
+              Door in te loggen via het menu aan de linkerkant, 
+            </div>
           </v-card-text>
 
           <v-timeline class="mx-5" side="end">
@@ -96,9 +98,6 @@
 
 <script lang="ts" setup>
 const { typewriter } = useMenuComposable();
-definePageMeta({
-  middleware: "authentication",
-});
 onMounted(() => {
   typewriter([`Via het menu hierboven kun je meer informatie vinden over mijn werkervaring en projecten.`]);
 });

@@ -32,8 +32,16 @@
           <v-img height="200px" src="/public/images/minifootball/mf-banner.webp" cover></v-img>
           <v-card-title>Minifootball Unity Frontend</v-card-title>
           <v-card-text>
-            Het spel Minifootball zelf is dus gebouw met Unity. Hiermee kunnen met 1 codebase, onze game compilen naar zowel Android als iOS.
-            <br />
+            <p class="mb-4">
+              Het spel Minifootball zelf is dus gebouw met Unity. Hiermee kunnen met 1 codebase, onze game compilen naar zowel Android als iOS.
+            </p>
+            <p class="mb-4">
+              Ik had al redelijk wat ervaring met Unity, voordat ik begon bij Minifootball. <br />
+               Ik had namelijk regelmatig al meegedaan met Hackathons en Gamejams, waar Unity vaak de standaard is. <br />
+               Het lastigste was vooral om bekend te raken met het Minifootball project zelf.
+            </p>
+            
+            
 
             <v-chip-group class="mt-4" column>
               <v-chip>Unity</v-chip>
@@ -50,8 +58,6 @@
           </v-card-actions>
         </v-card>
       </v-col>
-    </v-row>
-    <v-row>
       <v-col cols="12" md="6">
         <v-card>
           <v-img height="200px" src="/public/images/minifootball/vuejs.webp" cover></v-img>
@@ -88,8 +94,6 @@
           </v-card-actions>
         </v-card>
       </v-col>
-    </v-row>
-    <v-row>
       <v-col cols="12" md="6">
         <v-card>
           <v-img height="200px" src="/public/images/minifootball/azurefunctions.png" cover></v-img>
