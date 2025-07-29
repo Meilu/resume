@@ -7,7 +7,7 @@
           <v-card-text>
             <div class="font-weight-bold ms-1 mb-2">Tijdlijn</div>
             <div>Op deze pagina vind je een kort overzicht van mijn werkervaring en projecten. 
-              Door in te loggen via het menu aan de linkerkant, 
+              Door in te loggen via het menu aan de linkerkant, krijg je toegang tot meer informatie over de projecten waar ik aan heb gewerkt.
             </div>
           </v-card-text>
 
